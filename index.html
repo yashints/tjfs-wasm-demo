@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Parcel sample app</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+      .pred-container {
+        margin-bottom: 20px;
+      }
+      .pred-container > div {
+        display: inline-block;
+        margin-right: 20px;
+        vertical-align: top;
+      }
+      .row {
+        display: table-row;
+      }
+      .cell {
+        display: table-cell;
+        padding-right: 20px;
+      }
+      #file-container {
+        margin-bottom: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="tfjs-example-container">
+      <section class='title-area'>
+        <h1>TensorFlow.js running on WebAssembly backend</h1>
+      </section>
+  
+      <section>
+        <p class='section-head'>Status</p>
+        <div id="status"></div>
+      </section>
+  
+      <section>
+        <p class='section-head'>Prediction</p>
+  
+        <div id="predictions"></div>
+  
+        <img id="img" src="./img/piano.jpg" width="224px" />
+      </section>
+  
+      <script src="index.js"></script>
+    </div>
+  </body>
+</html>

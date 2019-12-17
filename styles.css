@@ -1,0 +1,23 @@
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+}
+
+p {
+  max-width: 960px;
+  line-height: 1.6em;
+}
+
+p.section-head {
+  font-variant: small-caps;
+  text-transform: uppercase;
+  letter-spacing: 0.17em;
+  line-height: 1.2em;
+  font-weight: 500;
+  margin-top: 2em;
+  margin-bottom: 1em;
+  border-left: 2px solid #ef6c00;
+  padding-left: 24px;
+  margin-left: -24px;
+  color: #818181;
+}
